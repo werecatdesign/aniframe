@@ -2,7 +2,11 @@ html, body {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .buttondiv, .imagediv {
+=======
+.buttondiv {
+>>>>>>> d320ec35606c14a58be9a519a61716f19af99114
     width: 100%;    
     text-align: center;
 }
@@ -21,6 +25,7 @@ html, body {
     margin: 2vw;
     text-decoration: none;
     color: #000000;
+<<<<<<< HEAD
 }
 
 .framecontainer {
@@ -37,3 +42,6 @@ img {
     max-height: 80vh;
 }
 
+=======
+}
+>>>>>>> d320ec35606c14a58be9a519a61716f19af99114
