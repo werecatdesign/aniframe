@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Image Upload</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "aniframe.css">
+        <script src = "upload_page.js"></script>
+    </head>
+    <body>
+        <div class = "uploaddiv">            
+                    <form action="upload.php" method="post" enctype="multipart/form-data" class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile" name="customFile">
+                        <label class="custom-file-label" for="customFile">Select file -></label>
+                        <br>
+                        <input type="submit" value="Use selected file" name="submit" id = "submitbutton">
+                        <input type="hidden" name="uploadValue" id="uploadValue" value="">
+                    </form>
+        </div>
+        <script src = "anime-master/anime.js"></script>
+        
+       
+    </body>
+</html>

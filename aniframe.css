@@ -1,0 +1,39 @@
+html, body {
+    margin: 0 auto;
+}
+
+.buttondiv, .imagediv {
+    width: 100%;    
+    text-align: center;
+}
+
+#continue {
+    display: inline-block;
+    width: 30vw;
+    border-radius: 0.5px;
+    border: #0000ff solid;
+    background-color: #0080FF;
+}
+
+#continue p {
+    display: inline-block;
+    font-size: 2vw;
+    margin: 2vw;
+    text-decoration: none;
+    color: #000000;
+}
+
+.framecontainer {
+    position: relative;
+}
+
+.imagediv {
+    position: absolute;
+    top: 10vh;
+}
+
+img {
+    max-width: 75vw;
+    max-height: 80vh;
+}
+
